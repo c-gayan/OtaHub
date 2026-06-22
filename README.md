@@ -29,7 +29,7 @@ Check the `examples/` directory for ready-to-use examples:
 ## Usage
 
 ```cpp
-#include <otahub.h>
+#include <OtaHub.h>
 
 OtaHub ota;
 
