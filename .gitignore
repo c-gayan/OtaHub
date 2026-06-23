@@ -1,0 +1,2 @@
+# Exclude bin folder containing arduino-lint
+bin/

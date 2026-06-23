@@ -2,8 +2,8 @@
 #include <WiFiClientSecure.h>
 #include "certs.h"
 
-const String OTA_HUB_URL = "https://api.otahub.dev/v1/devices/ota";
-const String OTA_PROVISION_URL = "https://api.otahub.dev/v1/devices/provision";
+const String OTA_HUB_URL = "https://otahub.dev/api/devices/ota";
+const String OTA_PROVISION_URL = "https://otahub.dev/api/devices/provision";
 
 OtaHub::OtaHub() {}
 
