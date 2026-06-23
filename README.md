@@ -31,7 +31,7 @@ Check the `examples/` directory for ready-to-use examples:
 ```cpp
 #include <OtaHub.h>
 
-OtaHub ota;
+OtaHub otaHub;
 
 void setup() {
   Serial.begin(115200);
@@ -41,7 +41,7 @@ void setup() {
 
   // Initialize OTA Hub
   // parameters: apiKey, currentVersion, pollingIntervalMinutes
-  ota.begin("YOUR_API_KEY", "1.0.0", 1);
+  otaHub.begin("YOUR_API_KEY", "1.0.0", 1);
 }
 
 void loop() {
